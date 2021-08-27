@@ -12,7 +12,7 @@ def calcula_grado(grado):
     else:
         nota = "F"
     return nota
-
+ 
 
 def main():
     #escribe tu código abajo de esta línea

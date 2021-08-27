@@ -1,8 +1,9 @@
 def area(base,altura):
-    return 
+    return (base * altura)
 
 def area_prisma(base,altura,profundidad):
-    return area(base,altura)*2+area(altura,profundidad)*2+area(base,profundidad)*2
+
+    return area(base,altura)*2 + area(altura,profundidad)*2 + area(base,profundidad)*2
 
 def main():
     #escribe tu código abajo de esta línea
@@ -16,3 +17,4 @@ def main():
 
 if __name__=='__main__':
     main()
+ 
